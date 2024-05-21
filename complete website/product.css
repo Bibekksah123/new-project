@@ -1,0 +1,123 @@
+
+body{
+    background-color: #fff;
+}
+.selecteditem{
+    padding: 10px 20px;
+    font: 20px;
+    color: #565656;
+}
+.productdisplay{
+    min-height: 100vh;
+    display: flex;
+    padding: 10px 20px;
+}
+.product-image{
+    display: flex;
+    grid:10px;
+}
+.imcicon{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.imcicon img{
+    border-radius: 10px;
+    padding: 5px;
+    border: 2px solid black;
+}
+.product-detail{
+    margin: 0px 30px;
+}
+.prodcut-title{
+    font-size: 25px;
+}
+.brand-store{
+    margin-top: 5px;
+    color: #007185;
+    font-size: 25px;
+}
+.brand-rating{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.brand-rating div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.brand-rating  p{
+    color: #007185;
+
+}
+.brand-rating p span{
+    color: #fff;
+    background-color: #c73500;
+    padding: 2px 5px;
+    border-radius: 3px solid;
+}
+.price{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.price div{
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+    gap: 10px;
+}
+.price div p{
+    font-size: 25px;
+    color: #c73500;
+}
+.product-color-section{
+    margin: 15px 0px;
+}
+.product-option{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.option{
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    gap: 10px;
+    border: 2px solid #cbcbcb;
+}
+.product-info{
+    display: grid;
+    grid-template-columns: auto auto;
+    max-width: 300px;
+    max-height: 100px;
+}
+.purchase{
+    width: 100%;
+    max-width: 280px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+}
+.purchase .title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.quantity{
+    padding: 8px 5px;
+    outline: none;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #565656;
+    color: aquamarine;
+}
+.addtocard{
+    width: 100%;
+    cursor: pointer;
+    padding: 5px ;
+    background-color: #b8a11b;
+    border-radius: 20px;
+
+}
